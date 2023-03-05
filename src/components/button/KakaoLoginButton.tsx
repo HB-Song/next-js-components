@@ -15,11 +15,11 @@ const getSize = (size: Size) => {
   const windowWidth: number = window.innerWidth;
   switch (size) {
     case 'sm':
-      return windowWidth / 2.5;
+      return windowWidth * 0.55;
     case 'md':
-      return windowWidth / 2;
+      return windowWidth * 0.7;
     case 'lg':
-      return windowWidth / 1.25;
+      return windowWidth * 0.85;
     default:
       return windowWidth;
   }
